@@ -1,5 +1,5 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Blazor project with MQTT client as a backend service.  The idea was to get MQTT updates that update in realtime on a blazor page.  
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
