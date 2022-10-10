@@ -2,11 +2,11 @@
 Blazor project with MQTT client as a backend service.  The idea was to get MQTT updates that update in realtime on a blazor page.  
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+
+1.	used a docker MQTT brokerhttps://hub.docker.com/_/eclipse-mosquitto
+2.	MQTT Explorer for posting updates to the broker.
+3.	Nuget pakage mqtt client https://www.nuget.org/packages/MQTTnet
+
 
 # Build and Test
 TODO: Describe and show how to build your code and run the tests. 
