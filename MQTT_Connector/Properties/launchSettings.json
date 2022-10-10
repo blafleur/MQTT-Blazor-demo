@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MQTT_Connector": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

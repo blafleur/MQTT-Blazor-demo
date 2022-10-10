@@ -1,0 +1,32 @@
+﻿@inject MQTTService mqttService
+@implements IDisposable
+@page "/dashboard"
+
+<PageTitle>Dashboard</PageTitle>
+
+<div>
+    <h1>Message</h1>
+
+    <p role="status">Current message: @mqttService.Message</p>
+</div>
+
+@code {
+    protected override void OnInitialized()
+    {
+        mqttService.Notify += OnNotify;
+    }
+
+    public async Task OnNotify()
+    {
+        await InvokeAsync(() =>
+        {
+            StateHasChanged();
+        });
+    }
+
+    public void Dispose()
+    {
+        mqttService.Notify -= OnNotify;
+    }
+}
+
