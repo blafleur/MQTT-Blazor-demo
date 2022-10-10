@@ -3,7 +3,7 @@ Blazor project with MQTT client as a backend service.  The idea was to get MQTT 
 
 # Getting Started
 
-1.	used a docker MQTT brokerhttps://hub.docker.com/_/eclipse-mosquitto
+1.	used a docker MQTT broker https://hub.docker.com/_/eclipse-mosquitto
 2.	MQTT Explorer for posting updates to the broker.
 3.	Nuget pakage mqtt client https://www.nuget.org/packages/MQTTnet
 
